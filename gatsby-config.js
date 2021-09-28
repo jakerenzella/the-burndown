@@ -3,12 +3,12 @@ module.exports = {
     title: `The Burndown`,
     author: {
       name: `Jake Renzella`,
-      summary: `Lecturer at UNSW.`,
+      summary: `On behalf of Doubtfire.`,
     },
     description: `Get updates and annoucements from the official Doubtfire team.`,
     siteUrl: `https://blog.doubtfire.io/`,
     social: {
-      twitter: `jakerenzella`,
+      twitter: `dfire_learning`,
     },
   },
   plugins: [
