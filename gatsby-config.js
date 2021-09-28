@@ -6,7 +6,7 @@ module.exports = {
       summary: `Lecturer at UNSW.`,
     },
     description: `Get updates and annoucements from the official Doubtfire team.`,
-    siteUrl: `https://blog.doubftfire.io/`,
+    siteUrl: `https://blog.doubtfire.io/`,
     social: {
       twitter: `jakerenzella`,
     },
