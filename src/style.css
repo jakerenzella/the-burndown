@@ -177,6 +177,10 @@ ol {
   list-style-image: none;
 }
 
+img {
+  width: 100%;
+}
+
 ul li,
 ol li {
   padding-left: var(--spacing-0);
