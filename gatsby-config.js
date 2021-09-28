@@ -1,17 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `The Burndown`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jake Renzella`,
+      summary: `Lecturer at UNSW.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Get updates and annoucements from the official Doubtfire team.`,
+    siteUrl: `https://blog.doubftfire.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `jakerenzella`,
     },
   },
   plugins: [
+    `gatsby-plugin-feed`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -51,12 +52,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-144166411-1`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
