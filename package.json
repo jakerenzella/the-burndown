@@ -24,8 +24,6 @@
     "gatsby-source-filesystem": "^4.0.0-zz-next.1",
     "gatsby-transformer-remark": "^5.0.0-zz-next.1",
     "gatsby-transformer-sharp": "^4.0.0-zz-next.1",
-    "i": "^0.3.7",
-    "npm": "^7.24.1",
     "prismjs": "^1.24.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
